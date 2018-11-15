@@ -3,6 +3,11 @@
 Aplicación cliente que solamente tiene permitido lectura de datos de la BD alojada en firebase.
 
 
+
+<img src="https://github.com/jonathancplusplus/ClienteFirebase/blob/master/capturas/app_cliente.png" >
+
+
+
 <b>Estructura de la base de datos</b>
 
 <img src="https://github.com/jonathancplusplus/ClienteFirebase/blob/master/capturas/estructura_bd.png">
