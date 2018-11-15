@@ -5,7 +5,7 @@ Aplicación cliente que solamente tiene permitido lectura de datos de la BD aloj
 <img src="https://github.com/jonathancplusplus/ClienteFirebase/blob/master/capturas/app_cliente.png" >
 
 
-Este proyecto tiene las siguientes caracteristicas:
+<b>Este proyecto tiene las siguientes caracteristicas: </b>
 
 * Unicamente permitida la lectura de datos
 * Lista de datos se actualiza automaticamente
@@ -14,6 +14,23 @@ Este proyecto tiene las siguientes caracteristicas:
 * En caso de que no se posea conexión a internet carga los ultimos datos descargados
 
 <b>Estructura de la base de datos</b>
+
+el tipo de BD que maneja firebase es no relacional (NoSQL) por lo que trabaja con coleciones y documentos, en este caso la colección utilizada en la app es <b>productos</b> y se puede observar que contiene una serie de documentos con id's generados automaticamente, y que ademas cada documentos posee una estructura siguiente:
+
+
+La estructura de la BD es la siguiente
+     
+      ->productos              es la raiz
+           -> Zxsd2312         es el id generado por defecto del documento
+               -> nombre       nombre del producto
+               -> precio       precio del producto
+           -> Xcv123551        es el id generado por defecto del documento
+               -> nombre       nombre del producto
+               -> precio       precio del producto
+          .
+          .
+          .
+          Hasta N documentos bajo la coleccion productos
 
 <img src="https://github.com/jonathancplusplus/ClienteFirebase/blob/master/capturas/estructura_bd.png">
 
