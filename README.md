@@ -21,10 +21,10 @@ el tipo de BD que maneja firebase es no relacional (NoSQL) por lo que trabaja co
 La estructura de la BD es la siguiente
      
       ->productos              es la raiz
-           -> Zxsd2312         es el id generado por defecto del documento
+           -> 40YEcz..         es el id generado por defecto del documento
                -> nombre       nombre del producto
                -> precio       precio del producto
-           -> Xcv123551        es el id generado por defecto del documento
+           -> Rjya4i5..        es el id generado por defecto del documento
                -> nombre       nombre del producto
                -> precio       precio del producto
           .
