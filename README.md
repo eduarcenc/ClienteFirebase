@@ -44,3 +44,8 @@ El tipo de base de datos utilizada es <b> Cloud Firestore </b> y en las reglas s
         }
       }
     }
+
+
+# Implementación
+
+Para poder llamar a la coleción <b> productos </b>  alojada en Firebase es necesario haber generado el <b> google-services.json</b> correspondiente a nuestro proyecto y posteriormente agregar las librerias correspondientes, estos pasos estan detallados en la [Documentación oficial](https://firebase.google.com/docs/android/setup?hl=es-419).
