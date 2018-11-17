@@ -55,6 +55,8 @@ Para poder llamar a la coleción <b> productos </b>  alojada en Firebase es nece
 Conjunto de librerias necesarias para manipular Cloud Firestore :
 
 
+
+
     dependencies {
         ...
         implementation 'com.google.firebase:firebase-core:16.0.1'
