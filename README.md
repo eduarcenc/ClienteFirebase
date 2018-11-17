@@ -31,6 +31,8 @@ La estructura de la BD es la siguiente
           .
           .
           Hasta N documentos bajo la coleccion productos
+          
+          
 
 <img src="https://github.com/jonathancplusplus/ClienteFirebase/blob/master/capturas/estructura_bd.png">
 
