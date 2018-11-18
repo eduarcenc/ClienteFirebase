@@ -24,9 +24,11 @@ La estructura de la BD es la siguiente
            -> 40YEcz..         es el id generado por defecto del documento
                -> nombre       nombre del producto
                -> precio       precio del producto
+               -> ruta_imagen  ruta a la imagen almacenada en firestorage
            -> Rjya4i5..        es el id generado por defecto del documento
                -> nombre       nombre del producto
                -> precio       precio del producto
+               -> ruta_imagen  ruta a la imagen almacenada en firestorage
           .
           .
           .
