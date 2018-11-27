@@ -24,13 +24,17 @@ La estructura de la BD es la siguiente
            -> 40YEcz..         es el id generado por defecto del documento
                -> nombre       nombre del producto
                -> precio       precio del producto
+               -> ruta_imagen  ruta a la imagen almacenada en firestorage
            -> Rjya4i5..        es el id generado por defecto del documento
                -> nombre       nombre del producto
                -> precio       precio del producto
+               -> ruta_imagen  ruta a la imagen almacenada en firestorage
           .
           .
           .
           Hasta N documentos bajo la coleccion productos
+          
+          
 
 <img src="https://github.com/jonathancplusplus/ClienteFirebase/blob/master/capturas/estructura_bd.png">
 
@@ -51,6 +55,8 @@ El tipo de base de datos utilizada es <b> Cloud Firestore </b> y en las reglas s
 Para poder llamar a la coleción <b> productos </b>  alojada en Firebase es necesario haber generado el <b> google-services.json</b> correspondiente a nuestro proyecto y posteriormente agregar las librerias necesarias, estos pasos estan detallados en la [Documentación oficial](https://firebase.google.com/docs/android/setup?hl=es-419).
 
 Conjunto de librerias necesarias para manipular Cloud Firestore :
+
+
 
 
     dependencies {
